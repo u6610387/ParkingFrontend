@@ -97,7 +97,39 @@ http://localhost:5173
 - Bookings today  
 - Peak booking hours chart  
 - Most reserved zones chart  
-- Bookings by day of week chart  
+- Bookings by day of week chart 
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](./screenshots/Login.png)
+
+---
+
+### 📝 Register Page
+![Register](./screenshots/Register.png)
+
+---
+
+### 🅿️ Available Parking Slots
+![Slots](./screenshots/ParkingSlot.png)
+
+---
+
+### 📋 My Reservations
+![My Reservations](./screenshots/MyReservations.png)
+
+---
+
+### 📋 Admin Manage Slot 
+![Manage Slot](./screenshots/Manageslot.png)
+
+---
+
+### 📋 Admin Dashboard
+![Admin Dashboard](./screenshots/AdminDashboard.png)
 
 ---
 ## 👨 Team Member
