@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Slots from "./pages/Slots";
 import MyReservations from "./pages/MyReservations";
+import ReservationHistory from "./pages/ReservationHistory";
 import AdminSlots from "./pages/AdminSlots";
 import AdminDashboard from "./pages/AdminDashboard";
 import ProtectedRoute from "./auth/ProtectedRoute";
@@ -24,6 +25,15 @@ export default function App() {
             element={
               <ProtectedRoute>
                 <MyReservations />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
+            path="/history"
+            element={
+              <ProtectedRoute>
+                <ReservationHistory />
               </ProtectedRoute>
             }
           />
