@@ -102,8 +102,8 @@ http://localhost:5173
 ---
 ## 👨 Team Member
 
--Thanakrit Kodklangdon
--Kitirat Pisithaporn
+- Thanakrit Kodklangdon
+- Kitirat Pisithaporn
 
 Student Project – CSX4107  
 Parking Slot Reservation System
