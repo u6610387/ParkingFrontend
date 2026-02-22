@@ -1,16 +1,109 @@
-# React + Vite
+# 📦 Parking Slot Reservation System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application for the Parking Slot Reservation System.  
+Built with React (Vite) and communicates with the Next.js backend API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This frontend allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Register and Login (JWT Authentication)
+- View available parking slots
+- Filter by zone, type, and time range
+- Reserve parking slots
+- View active reservations
+- View reservation history (cancelled / expired)
+- Access admin dashboard (admin role only)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗 System Architecture
+
+React (Vite) Frontend  
+↓  
+REST API (Next.js Backend)  
+↓  
+MongoDB Database  
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- React Router
+- Recharts (Admin Dashboard charts)
+- JWT Authentication (stored in localStorage)
+- REST API communication
+
+---
+
+## 📋 Requirements
+
+- Node.js 18+
+- Backend running (default: http://localhost:3000)
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the project root:
+
+VITE_API_BASE=http://localhost:3000
+
+For VM deployment:
+
+VITE_API_BASE=http://YOUR_VM_IP:3000
+
+---
+
+## 💻 Local Development Setup
+
+### 1️⃣ Install dependencies
+
+cd ParkingFrontend  
+npm install  
+
+### 2️⃣ Start development server
+
+npm run dev  
+
+Frontend runs at:
+
+http://localhost:5173  
+
+---
+
+## 🔑 Authentication Flow
+
+1. User logs in  
+2. Backend returns JWT  
+3. JWT stored in localStorage  
+4. Protected routes require valid token  
+5. Admin routes require role = admin  
+
+---
+
+## 📊 Admin Dashboard Features
+
+- Active slots  
+- Reserved now  
+- Available now  
+- Upcoming reservations  
+- Expired reservations  
+- Cancelled reservations  
+- Bookings today  
+- Peak booking hours chart  
+- Most reserved zones chart  
+- Bookings by day of week chart  
+
+---
+## 👨 Team Member
+
+-Thanakrit Kodklangdon
+-Kitirat Pisithaporn
+
+Student Project – CSX4107  
+Parking Slot Reservation System
