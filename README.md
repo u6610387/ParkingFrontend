@@ -134,8 +134,8 @@ http://localhost:5173
 ---
 ## 👨 Team Member
 
-- Thanakrit Kodklangdon
-- Kitirat Pisithaporn
+- Thanakrit Kodklangdon | [github.com/u6610936](https://github.com/u6610936) |
+- kitirat Pisithaporn | [github.com/u6610387](https://github.com/u6610387) |
 
 Student Project – CSX4107  
 Parking Slot Reservation System
